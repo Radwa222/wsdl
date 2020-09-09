@@ -1,11 +1,11 @@
 {
   "name": "tasker",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.16.1"
-  },
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "12.14.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
