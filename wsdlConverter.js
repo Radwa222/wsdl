@@ -14,7 +14,8 @@ app.post('/convert', (req, res) => {
         });
     })
 })
+const port = process.env.PORT
 
-app.listen(3000, () => {
-    console.log('server is up and running')
+app.listen(port, () => {
+    console.log('server is up and running ')
 })
